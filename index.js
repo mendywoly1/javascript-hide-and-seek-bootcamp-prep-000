@@ -18,7 +18,8 @@ function increaseRankBy(n){
   // make a variable for both lists
   firstList = arl[0]
   secondList = arl[1]
-  // to get to list go to firstList.children.innerHTML
+  // to get to list go to firstList.children[].innerHTML
+  for (i=0;i > ){
   
-  
+}
 }
