@@ -24,3 +24,6 @@ function increaseRankBy(n){
     parseInt(firstList.children[i].innerHTML) + n
 }
 }
+
+
+
