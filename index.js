@@ -15,9 +15,7 @@ function deepestChild(){
 function increaseRankBy(n){
   // node of all class .ranked-list
   var arl = document.querySelectorAll('.ranked-list')
-  // make a variable for both lists
 
-  // to get to list go to firstList.children[].innerHTML
   for (let i = 0; i < arl[0]children.length; i++){
     parseInt(arl[0].children[i].innerHTML) + n
   }
