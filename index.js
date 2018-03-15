@@ -19,7 +19,7 @@ function increaseRankBy(n){
  var firstList = arl[0]
   var secondList = arl[1]
   // to get to list go to firstList.children[].innerHTML
-  for (let i = 0, l = ; i < l; i++){
+  for (let i = 0; i < firstList.children.length; i++){
     parseInt(firstList.children[i].innerHTML) + n
   }
   
