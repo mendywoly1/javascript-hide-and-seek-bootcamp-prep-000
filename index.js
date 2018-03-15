@@ -16,7 +16,7 @@ function increaseRankBy(n){
   // node of all class .ranked-list
   var arl = document.querySelectorAll('.ranked-list')
 
-  for (let i = 0; i < arl[0]children.length; i++){
+  for (let i = 0; i < arl[0].children.length; i++){
     parseInt(arl[0].children[i].innerHTML) + n
   }
   
