@@ -19,6 +19,12 @@ function deepestChild(){
 }
 
 function increaseRankBy(n){
+  // node of all class .ranked-list
+  var arl = document.querySelectorAll('.ranked-list')
+  // make a variable for both lists
+  firstList = arl[0]
+  secondList = arl[1]
+  // get to the actual list
   
   
 }
